@@ -1,0 +1,11 @@
+.commits__github-button {
+  grid-area: github-button;
+  justify-self: center;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .commits__github-button.button {
+    display: none;
+  }
+}

@@ -1,0 +1,6 @@
+@import url("__logo/navbar__logo_black.css");
+@import url("__navigation/navbar__navigation.css");
+
+.navbar.navbar_black {
+  box-shadow: inset 0px -1px 0px #d1d2d6;
+}

@@ -1,0 +1,16 @@
+.analytics__heading {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 16px;
+  color: #1a1b22;
+}
+
+@media (min-width: 768px) {
+  .analytics__heading {
+    padding-bottom: 49px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}

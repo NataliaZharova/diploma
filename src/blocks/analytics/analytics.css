@@ -1,0 +1,18 @@
+@import url(__heading/analytics__heading.css);
+
+.analytics {
+  background-color: #f5f6f7;
+  padding: 24px 16px 38px;
+}
+
+@media (min-width: 768px) {
+  .analytics {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .analytics {
+    padding: 80px 104px;
+  }
+}

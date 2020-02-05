@@ -1,0 +1,17 @@
+@import url(__wrap/content__wrap.css);
+
+.content {
+  background-color: #f5f6f7;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content {
+    padding: 80px 140px;
+  }
+}

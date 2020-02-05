@@ -1,0 +1,29 @@
+@import url(__github-button/commits__github-button.css);
+@import url(__github-link/commits__github-link.css);
+@import url(__header/commits__header.css);
+@import url(__list/commits__list.css);
+
+.commits {
+  padding-top: 32px;
+  display: grid;
+  grid-template:
+    "header"
+    "list"
+    "github-button";
+  background-color: #f5f6f7;
+}
+
+@media (min-width: 768px) {
+  .commits {
+    padding-top: 38px;
+    grid-template:
+      "header github-link"
+      "list list" / 1fr auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .commits {
+    padding-top: 72px;
+  }
+}

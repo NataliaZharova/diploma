@@ -1,0 +1,22 @@
+.content__grid-image {
+  margin-bottom: 6px;
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .content__grid-image {
+    margin-bottom: 11px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content__grid-image {
+    margin-bottom: 14px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    height: 272px;
+  }
+}

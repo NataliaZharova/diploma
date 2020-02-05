@@ -1,0 +1,7 @@
+@import url(__name/card__name.css);
+@import url(__mail/card__mail.css);
+@import url(__image/card__image.css);
+
+.card__heading {
+  display: flex;
+}

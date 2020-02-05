@@ -1,0 +1,23 @@
+@import url(__grid-data/content__grid-data.css);
+@import url(__grid-heading/content__grid-heading.css);
+@import url(__grid-image/content__grid-image.css);
+@import url(__grid-source/content__grid-source.css);
+@import url(__grid-text/content__grid-text.css);
+
+.content__grid-item {
+  height: 460px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .content__grid-item {
+    height: 420px;
+  }
+}
+@media (min-width: 1440px) {
+  .content__grid-item {
+    height: 576px;
+  }
+}

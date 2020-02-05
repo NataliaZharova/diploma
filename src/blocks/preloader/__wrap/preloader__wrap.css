@@ -1,0 +1,7 @@
+@import url(__circle-preloader/preloader__circle-preloader.css);
+
+.preloader__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,5 @@
+@import url(_bold/results__item_bold.css);
+
+.results__item {
+  margin-bottom: 4px;
+}

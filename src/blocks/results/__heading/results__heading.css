@@ -1,0 +1,26 @@
+.results__heading {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 34px;
+  margin: 0;
+  width: 288px;
+  color: #1a1b22;
+}
+
+@media (min-width: 768px) {
+  .results__heading {
+    width: 100%;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 768px) {
+  .results__heading {
+    width: 100%;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: normal;
+  }
+}

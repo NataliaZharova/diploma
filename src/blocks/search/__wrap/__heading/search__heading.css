@@ -1,0 +1,22 @@
+.search__heading {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px;
+  width: 285px;
+  margin: 0 0 56px 3px;
+}
+
+@media (min-width: 768px) {
+  .search__heading {
+    margin-bottom: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .search__heading {
+    font-size: 60px;
+    line-height: 64px;
+    width: 618px;
+    margin-bottom: 32px;
+  }
+}

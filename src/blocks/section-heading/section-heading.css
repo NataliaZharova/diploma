@@ -1,0 +1,18 @@
+.section-heading {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 16px;
+  max-width: 288px;
+  color: #1a1b22;
+}
+
+@media (min-width: 1440px) {
+  .section-heading {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    max-width: 344px;
+  }
+}

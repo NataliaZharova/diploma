@@ -1,0 +1,19 @@
+.content__grid-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a1b22;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 90px;
+  white-space: normal;
+  margin: 0 16px 12px;
+}
+
+@media (min-width: 1440px) {
+  .content__grid-text {
+    margin: 0 24px 10px;
+  }
+}

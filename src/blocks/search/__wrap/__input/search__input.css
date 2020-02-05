@@ -1,0 +1,33 @@
+.search__input {
+  border-radius: 50px;
+  border: 1px solid #d1d2d6;
+  box-sizing: border-box;
+  border-radius: 100px;
+  height: 56px;
+  padding: 17px 16px;
+  margin-bottom: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a1b22;
+}
+
+.search__input::placeholder {
+  color: #b6bcbf;
+}
+
+@media (min-width: 768px) {
+  .search__input {
+    padding-right: 200px;
+    padding-left: 24px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .search__input {
+    padding-right: 208px;
+    padding-left: 24px;
+  }
+}

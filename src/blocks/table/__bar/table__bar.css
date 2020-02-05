@@ -1,0 +1,12 @@
+.table__bar {
+  background-color: #2f71e5;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}

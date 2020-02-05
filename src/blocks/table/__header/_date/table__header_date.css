@@ -1,0 +1,14 @@
+.table__header.table__header_date {
+  width: 64px;
+  text-align: left;
+  padding-right: 16px;
+  padding-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .table__header.table__header_date {
+    padding-bottom: 4px;
+    padding-right: 53px;
+    height: 39px;
+  }
+}

@@ -1,0 +1,17 @@
+@import url(__information/about__information.css);
+
+.about {
+  padding: 16px 16px 0;
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 29px 40px 26px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about {
+    padding: 80px 104px 70px;
+  }
+}

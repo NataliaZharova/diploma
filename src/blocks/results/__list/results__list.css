@@ -1,0 +1,19 @@
+@import url(__item/results__item.css);
+
+.results__list {
+  list-style-type: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  padding: 16px 0 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+}
+
+@media (min-width: 768px) {
+  .results__list {
+    padding: 24px 0 0;
+  }
+}

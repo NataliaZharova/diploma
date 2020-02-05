@@ -1,0 +1,7 @@
+@import url(__icon/footer__icon.css);
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  grid-area: icons;
+}

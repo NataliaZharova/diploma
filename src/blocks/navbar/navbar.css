@@ -1,0 +1,9 @@
+@import url("__logo/navbar__logo.css");
+@import url("__navigation/navbar__navigation.css");
+@import url("_black/navbar_black.css");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}

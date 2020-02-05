@@ -1,0 +1,19 @@
+@import url("__button/navbar__button.css");
+@import url("__button/navbar__button_active.css");
+
+.navbar__navigation {
+  display: flex;
+  margin-right: 3px;
+}
+
+@media (min-width: 768px) {
+  .navbar__navigation {
+    margin-right: 6px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navbar__navigation {
+    margin-right: 67px;
+  }
+}

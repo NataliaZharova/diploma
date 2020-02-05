@@ -1,0 +1,8 @@
+@import url(__bar/table__bar.css);
+@import url(__data/table__data.css);
+@import url(__header/table__header.css);
+@import url(__scale/table__scale.css);
+
+.table {
+  border-collapse: collapse;
+}

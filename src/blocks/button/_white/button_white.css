@@ -1,0 +1,7 @@
+.button.button_white {
+  width: 288px;
+  height: 56px;
+  background-color: #f5f6f7;
+  border: 1px solid #1a1b22;
+  font-weight: 500;
+}

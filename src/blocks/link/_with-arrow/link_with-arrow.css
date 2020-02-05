@@ -1,0 +1,19 @@
+.link.link_with-arrow {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+}
+
+.link.link_with-arrow::after {
+  content: "";
+  margin-left: 10px;
+  background: url("../../../images/arrow-black.svg");
+  width: 9px;
+  height: 14px;
+}
+
+.link.link_with-arrow:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,21 @@
+.header {
+  background-image: url("../../images/georgia-de-lotz--UsJoNxLaNo-unsplash2.png");
+  max-height: 536px;
+  min-height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-image: url("../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.png");
+    min-height: 400px;
+  }
+}
+@media (min-width: 1440px) {
+  .header {
+    background-image: url("../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.png");
+    max-height: 576px;
+  }
+}

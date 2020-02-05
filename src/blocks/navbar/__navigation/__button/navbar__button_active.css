@@ -1,0 +1,17 @@
+.navbar__button.navbar__button_active {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 13px;
+}
+
+@media (min-width: 768px) {
+  .navbar__button.navbar__button_active {
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navbar__button.navbar__button_active {
+    padding-bottom: 23px;
+  }
+}

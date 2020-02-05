@@ -1,0 +1,10 @@
+.table__header.table__header_count {
+  width: 100%;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .table__header.table__header_count {
+    width: 90%;
+  }
+}

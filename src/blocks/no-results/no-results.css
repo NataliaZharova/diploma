@@ -1,0 +1,12 @@
+@import url(__not-found-image/no-results__not-found-image.css);
+
+.no-results {
+  background: #f5f6f7;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}

@@ -1,0 +1,32 @@
+.navbar__button {
+  margin-right: 11px;
+  padding: 16px 0;
+  border: 0;
+  background-color: transparent;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b6bcbf;
+  text-decoration: none;
+}
+
+.navbar__button:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar__button {
+    margin-right: 34px;
+    padding-top: 22px;
+    padding-bottom: 18px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navbar__button {
+    padding-top: 30px;
+    padding-bottom: 26px;
+  }
+}

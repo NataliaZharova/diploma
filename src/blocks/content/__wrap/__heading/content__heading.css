@@ -1,0 +1,25 @@
+@import url(__result/content__result.css);
+
+.content__heading {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  color: #1a1b22;
+  margin: 0;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .content__heading {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+}
