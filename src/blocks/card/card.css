@@ -1,6 +1,9 @@
 @import url(__data/card__data.css);
 @import url(__heading/card__heading.css);
 @import url(__about-developer/card__about-developer.css);
+@import url(__name/card__name.css);
+@import url(__mail/card__mail.css);
+@import url(__image/card__image.css);
 
 .card {
   box-sizing: border-box;

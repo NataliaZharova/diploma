@@ -1,6 +1,3 @@
-@import url("__button/navbar__button.css");
-@import url("__button/navbar__button_active.css");
-
 .navbar__navigation {
   display: flex;
   margin-right: 3px;

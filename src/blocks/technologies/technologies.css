@@ -1,4 +1,6 @@
 @import url(__content/technologies__content.css);
+@import url(__item-heading/technologies__item-heading.css);
+@import url(__item-icon/technologies__item-icon.css);
 
 .technologies {
   background-color: #f5f6f7;

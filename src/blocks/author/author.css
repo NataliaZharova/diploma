@@ -1,5 +1,7 @@
 @import url("__description/author__description.css");
 @import url("__image/author__image.css");
+@import url("__heading/author__heading.css");
+@import url("__paragraph/author__paragraph.css");
 
 .author {
   display: block;

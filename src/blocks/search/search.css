@@ -1,4 +1,8 @@
 @import url(__wrap/search__wrap.css);
+@import url(__hint/search__hint.css);
+@import url(__heading/search__heading.css);
+@import url(__input/search__input.css);
+@import url(__input-wrap/search__input-wrap.css);
 
 .search {
   color: #fff;

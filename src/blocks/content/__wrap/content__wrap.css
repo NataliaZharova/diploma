@@ -1,6 +1,3 @@
-@import url(__heading/content__heading.css);
-@import url(__grid/content__grid.css);
-
 .content__wrap {
   width: 288px;
   margin: auto;

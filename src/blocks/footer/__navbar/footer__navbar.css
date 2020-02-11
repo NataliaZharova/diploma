@@ -1,5 +1,3 @@
-@import url(__list/footer__list.css);
-
 .footer__navbar {
   grid-area: navbar;
   list-style-type: none;
