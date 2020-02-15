@@ -1,0 +1,20 @@
+.news-card__title {
+  margin: 0 16px 10px;
+  max-height: 72px;
+  overflow: hidden;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #1a1b22;
+}
+
+@media (min-width: 1440px) {
+  .news-card__title {
+    margin: 0 24px 15px;
+    max-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}

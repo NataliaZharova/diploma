@@ -4,11 +4,11 @@
   padding-bottom: 24px;
 }
 
-.table__data-row:nth-child(2) .table__data {
+.table__data-row:first-child .table__data {
   padding-top: 18px;
 }
 
-.table__data-row:nth-last-child(2) .table__data {
+.table__data-row:last-child .table__data {
   padding-bottom: 0;
 }
 

@@ -14,8 +14,8 @@ new webpack.DefinePlugin({
 module.exports = {
   entry: {
     index: "./src/index.js",
-    about: "./src/about.js",
-    analytics: "./src/analytics.js"
+    about: "./src/about/index.js",
+    analytics: "./src/analytics/index.js"
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -88,12 +88,12 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "./src/about.html",
+      template: "./src/about/index.html",
       filename: "about.html"
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "./src/analytics.html",
+      template: "./src/analytics/index.html",
       filename: "analytics.html"
     })
   ]

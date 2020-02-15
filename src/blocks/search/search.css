@@ -2,7 +2,7 @@
 @import url(__hint/search__hint.css);
 @import url(__heading/search__heading.css);
 @import url(__input/search__input.css);
-@import url(__input-wrap/search__input-wrap.css);
+@import url(__form/search__form.css);
 
 .search {
   color: #fff;

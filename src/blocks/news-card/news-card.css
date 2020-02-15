@@ -1,0 +1,24 @@
+@import url(__image/news-card__image.css);
+@import url(__date/news-card__date.css);
+@import url(__title/news-card__title.css);
+@import url(__text/news-card__text.css);
+@import url(__source/news-card__source.css);
+
+.news-card {
+  height: 460px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .news-card {
+    height: 420px;
+  }
+}
+@media (min-width: 1440px) {
+  .news-card {
+    height: 576px;
+  }
+}

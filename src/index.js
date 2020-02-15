@@ -1,16 +1,42 @@
-import { Api } from "./api";
+import {
+  NEWS_API_HOST,
+  NEWS_API_KEY,
+  NEWS_DAYS_COUNT,
+  NEWS_ARTICLES_LIMIT
+} from "./js/constants/news.js";
+import { NEWS_STORAGE_KEY, QUERY_STORAGE_KEY } from "./js/constants/storage.js";
+import { DataStorage } from "./js/modules/DataStorage";
+import { NewsApi } from "./js/modules/NewsApi";
+import { SearchInput } from "./js/components/SearchInput";
+import { NewsCardList } from "./js/components/NewsCardList";
+import { NewsCard } from "./js/components/NewsCard";
 
 import "normalize.css";
 import "./pages/index.css";
 
-const GROUP_ID = "cohort3";
-const TOKEN = "361584ad-ce3b-45ac-9ca2-820a2f350a53";
+const dataStorage = new DataStorage(QUERY_STORAGE_KEY, NEWS_STORAGE_KEY);
 
-const serverUrl =
-  process.env.NODE_ENV === "development"
-    ? "http://praktikum.tk/" + GROUP_ID
-    : "https://praktikum.tk/" + GROUP_ID;
+const newsApi = new NewsApi(
+  NEWS_API_HOST,
+  NEWS_DAYS_COUNT,
+  NEWS_ARTICLES_LIMIT,
+  NEWS_API_KEY
+);
 
-const root = document.querySelector(".root");
+const newsCardList = new NewsCardList();
 
-const api = new Api(TOKEN, serverUrl);
+const searchInput = new SearchInput([
+  async query => {
+    try {
+      newsCardList.startLoading();
+      const news = await newsApi.getNews(query);
+      const cards = news.articles.map(o => new NewsCard(o));
+      dataStorage.saveQuery(query);
+      dataStorage.saveNews(news);
+      newsCardList.populate(cards);
+    } catch (err) {
+      newsCardList.showFailure();
+      throw err;
+    }
+  }
+]);

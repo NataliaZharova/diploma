@@ -1,0 +1,11 @@
+.commit-card__profile-pic {
+  height: 48px;
+  width: 48px;
+  margin-right: 12px;
+}
+
+@media (min-width: 1440px) {
+  .commit-card__profile-pic {
+    margin-right: 16px;
+  }
+}
