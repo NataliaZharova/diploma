@@ -11,9 +11,9 @@ export class NewsCard {
       source: { name: source }
     } = newsArticle;
 
-    const tpl = document.getElementById("news-card");
+    const template = document.getElementById("news-card");
 
-    this._el = tpl.content.cloneNode(true);
+    this._el = template.content.cloneNode(true);
     this._cardEl = this._el.querySelector(".news-card");
     this._imageEl = this._el.querySelector(".news-card__image");
     this._dateEl = this._el.querySelector(".news-card__date");

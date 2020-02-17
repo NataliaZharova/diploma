@@ -1,3 +1,3 @@
-export function max(xs) {
-  return xs.reduce((acc, x) => (x > acc ? x : acc), -Infinity);
+export function max(arr) {
+  return arr.reduce((total, item) => (item > total ? item : total), -Infinity);
 }

@@ -64,8 +64,8 @@ export class Statistics {
       return this._news.articles
         .filter(o => sameDay(date, new Date(o.publishedAt)))
         .reduce(
-          (acc, { title, description }) =>
-            acc +
+          (total, { title, description }) =>
+            total +
             this._countMentions(this._queryWords, title + " " + description),
           0
         );

@@ -1,4 +1,4 @@
 // Сложение всех чисел в массиве
 export function addAllItems(arr) {
-  return arr.reduce((acc, n) => acc + n, 0);
+  return arr.reduce((total, n) => total + n, 0);
 }
