@@ -1,0 +1,19 @@
+@import url("__failure/card-list__failure.css");
+
+.card-list__preloader,
+.card-list__failure,
+.card-list__not-found,
+.card-list__content {
+  display: none;
+}
+
+.card-list_state_ready .card-list__content,
+.card-list_state_loading .card-list__preloader,
+.card-list_state_not-found .card-list__not-found,
+.card-list_state_failure .card-list__failure {
+  display: block;
+}
+
+.card-list_fully-drawn .card-list__render-page {
+  display: none;
+}

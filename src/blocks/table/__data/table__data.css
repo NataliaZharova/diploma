@@ -1,0 +1,23 @@
+@import url(_date/table__data_date.css);
+
+.table__data {
+  padding-bottom: 24px;
+}
+
+.table__data-row:first-child .table__data {
+  padding-top: 18px;
+}
+
+.table__data-row:last-child .table__data {
+  padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .table__data {
+    padding-bottom: 56px;
+  }
+
+  .table__data-row:nth-child(2) .table__data {
+    padding-top: 11px;
+  }
+}

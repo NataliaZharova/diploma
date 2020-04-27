@@ -1,0 +1,21 @@
+.content__grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .content__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 8px;
+    padding-top: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content__grid {
+    grid-gap: 16px;
+  }
+}

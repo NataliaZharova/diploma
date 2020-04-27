@@ -1,0 +1,13 @@
+.footer__list {
+  margin-bottom: 26px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .footer__list {
+    margin-bottom: 0;
+    margin-left: 25px;
+  }
+}

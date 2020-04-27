@@ -1,0 +1,28 @@
+.button.button_content {
+  background-color: #fff;
+  font-weight: 500;
+  width: 100%;
+  height: 56px;
+  margin: 12px 0 44px;
+}
+
+.button.button_content:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .button.button_content {
+    margin: 31px auto 0;
+    width: 240px;
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) {
+  .button.button_content {
+    margin: 64px auto 0;
+    width: 288px;
+    display: block;
+    height: 64px;
+  }
+}

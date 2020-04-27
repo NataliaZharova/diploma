@@ -1,0 +1,17 @@
+.author__description {
+  margin: 0 16px 44px;
+}
+
+@media (min-width: 768px) {
+  .author__description {
+    margin: 42px 40px 0 0;
+    max-width: 426px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .author__description {
+    margin: 42px 40px 0 0;
+    max-width: 600px;
+  }
+}

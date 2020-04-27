@@ -1,0 +1,8 @@
+.navbar__button.navbar__button_black.navbar__button_active {
+  border-bottom: 3px solid #000;
+  color: #1a1b22;
+}
+
+.navbar__button.navbar__button_black:hover {
+  color: #1a1b22;
+}

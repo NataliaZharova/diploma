@@ -1,0 +1,15 @@
+@import url(_count/table__header_count.css);
+@import url(_date/table__header_date.css);
+
+.table__header {
+  color: #b6bcbf;
+  border-bottom: 1px solid #1a1b22;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  vertical-align: top;
+}

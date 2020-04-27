@@ -1,0 +1,20 @@
+.search__form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .search__form {
+    position: relative;
+    width: 100%;
+    height: 56px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .search__form {
+    position: relative;
+    width: 100%;
+    height: 64px;
+  }
+}

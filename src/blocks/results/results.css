@@ -1,0 +1,20 @@
+@import url(__heading/results__heading.css);
+@import url(__list/results__list.css);
+@import url(__navbar/results__navbar.css);
+@import url(__item/results__item.css);
+
+.results {
+  padding: 18px 16px 24px;
+}
+
+@media (min-width: 768px) {
+  .results {
+    padding: 32px 40px 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .results {
+    padding: 40px 104px 80px;
+  }
+}

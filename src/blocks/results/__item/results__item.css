@@ -1,0 +1,6 @@
+@import url(_bold/results__item_bold.css);
+@import url(_active/results__item_active.css);
+
+.results__item {
+  margin-bottom: 4px;
+}

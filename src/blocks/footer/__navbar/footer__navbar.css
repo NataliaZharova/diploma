@@ -1,0 +1,13 @@
+.footer__navbar {
+  grid-area: navbar;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 0 20px 0;
+}
+
+@media (min-width: 768px) {
+  .footer__navbar {
+    display: flex;
+    margin: 0;
+  }
+}

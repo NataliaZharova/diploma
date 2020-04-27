@@ -1,0 +1,31 @@
+@import url(__logo/footer__logo.css);
+@import url(__navbar/footer__navbar.css);
+@import url(__icons/footer__icons.css);
+@import url(__list/footer__list.css);
+@import url(__icon/footer__icon.css);
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "navbar icons"
+    "logo logo";
+  padding: 20px 16px 22px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 104px;
+  }
+}

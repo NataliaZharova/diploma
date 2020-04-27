@@ -1,0 +1,14 @@
+@import url(_bold/paragraph_bold.css);
+@import url(_gray/paragraph_gray.css);
+@import url(_no-results/paragraph_no-results.css);
+@import url(_padding-bottom/paragraph_padding-bottom.css);
+
+.paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  color: #1a1b22;
+}

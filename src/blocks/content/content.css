@@ -1,0 +1,20 @@
+@import url(__wrap/content__wrap.css);
+@import url(__heading/content__heading.css);
+@import url(__grid/content__grid.css);
+@import url(__result/content__result.css);
+
+.content {
+  background-color: #f5f6f7;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content {
+    padding: 80px 140px;
+  }
+}

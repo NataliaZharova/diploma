@@ -1,0 +1,9 @@
+.about__information {
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .about__information {
+    width: 815px;
+  }
+}

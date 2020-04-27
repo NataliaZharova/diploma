@@ -1,0 +1,10 @@
+@import url(_footer/link_footer.css);
+@import url(_with-arrow/link_with-arrow.css);
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+}

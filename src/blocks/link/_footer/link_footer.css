@@ -1,0 +1,10 @@
+.link.link_footer {
+  font-style: normal;
+  font-weight: normal;
+  color: #1a1b22;
+  font-size: 18px;
+}
+
+.link.link_footer:hover {
+  opacity: 0.5;
+}

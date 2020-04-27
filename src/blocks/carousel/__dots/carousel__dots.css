@@ -1,0 +1,19 @@
+.carousel__dots {
+  bottom: 21px !important;
+}
+
+@media (min-width: 768px) {
+  .carousel__dots {
+    bottom: 36px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .carousel__dots {
+    bottom: 5px !important;
+  }
+}
+
+.carousel__dots .swiper-pagination-bullet-active {
+  background: #1a1b22;
+}

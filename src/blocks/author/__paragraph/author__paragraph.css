@@ -1,0 +1,16 @@
+.author__paragraph {
+  padding-bottom: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  color: #1a1b22;
+}
+
+@media (min-width: 1440px) {
+  .author__paragraph {
+    padding-bottom: 24px;
+  }
+}

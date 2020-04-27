@@ -1,0 +1,19 @@
+@import url(_search/button_search.css);
+@import url(_content/button_content.css);
+@import url(_white/button_white.css);
+
+.button {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 24px;
+  border: 0;
+  border-radius: 50px;
+}
+
+a.button {
+  text-decoration: none;
+  color: #1a1b22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+.commits__header {
+  grid-area: header;
+  margin: 0 16px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1a1b22;
+}
+
+@media (min-width: 768px) {
+  .commits__header {
+    margin: 0 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .commits__header {
+    margin: 0 104px;
+  }
+}
